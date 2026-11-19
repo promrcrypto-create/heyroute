@@ -6467,11 +6467,11 @@ if __name__ == "__main__":
     print("   Centered Editorial Studio Edition")
     print("=" * 50)
 
-    print("Open: [http://127.0.0.1:5000](http://127.0.0.1:5000)")
+    print("Open: [http://0.0.0.0:5000](http://0.0.0.0:5000)")
     print("Stop: CTRL+C")
 
     app.run(
-        host="127.0.0.1",
+        host="0.0.0.0",
         port=5000,
         debug=False,
         threaded=True
